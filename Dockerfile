@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN yum install jenkins -y
+RUN apt-get install jenkins -y
 CMD ["jenkins", "-g", "daemon off;"]
