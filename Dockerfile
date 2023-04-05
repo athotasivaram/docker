@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN apt-get install jenkins -y
-CMD ["jenkins", "-g", "daemon off;"]
+RUN apt-get install tomcat -y
+CMD ["tomcat", "-g", "daemon off;"]
