@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN yum intall jenkins -yum
+RUN yum intall jenkins -y
 CMD ["jenkins", "-g", "daemon off;"]
